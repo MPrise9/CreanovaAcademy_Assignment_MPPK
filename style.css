@@ -1,0 +1,94 @@
+/* Zen Dots */
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Raleway:ital,wght@0,100..900;1,100..900&family=Zen+Dots&display=swap");
+/* Bai Jamjuree */
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Zen+Dots&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Bai Jamjuree";
+}
+.navbar {
+  background-color: #3fa2f6;
+}
+.logo {
+  font-family: "Zen Dots", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+.logo span {
+  color: black;
+}
+.d-flex {
+  font-family: "Zen Dots", sans-serif;
+  font-style: normal;
+}
+.d-flex span {
+  background-color: #0f67b1;
+}
+.nav-item a {
+  font-family: "Zen Dots", sans-serif;
+  font-style: normal;
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+}
+.nav-link,
+.nav-link:hover,
+.nav-link:active,
+.nav-link:visited {
+  color: white;
+}
+
+.nav-link:hover {
+  border-bottom: 1px solid white;
+}
+
+.carousel-inner .carousel-item {
+  max-height: 100%;
+}
+
+.carousel-inner .carousel-item p,
+.carousel-inner .carousel-item h5 {
+  text-shadow: 2px 2px 2px 2px black;
+}
+
+.carousel-caption {
+  background-color: black;
+  opacity: 0.5;
+  bottom: 2rem !important;
+  padding: 10px;
+}
+
+footer ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+}
+.bg-info {
+  background-color: #63a5dc !important;
+}
+
+.social-icons {
+    color: white;
+}
+/* about us  */
+.aboutusp{
+  font-family: "Zen Dots";
+}
+@media screen and (max-width: 768px) {
+  .nav-link,
+  .nav-link:hover {
+    border: none;
+    color: #0f67b1;
+  }
+  .active {
+    color: #0f67b1 !important;
+  }
+}
+
