@@ -1,0 +1,37 @@
+/* Bai Jamjuree */
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Zen+Dots&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Bai Jamjuree";
+}
+.logo {
+    font-family: "Zen Dots", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    text-decoration: none;
+    font-size: 1.5rem;
+  }
+footer ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  footer a {
+    text-decoration: none;
+    color: white;
+  }
+  .bg-info {
+    background-color: #63a5dc !important;
+  }
+  
+  .social-icons {
+      color: rgb(5, 5, 5);
+  }
+@media screen and (max-width: 900px) {
+    .logo {
+        color: black;
+        text-decoration: none;
+        font-size: 0.9rem; 
+}
+}
